@@ -1,7 +1,5 @@
 #include "main.h"
-
 void print_integer(int m);
-
 /**
 * print_number - a function that prints an integer.
 * @n: An input integer
@@ -13,7 +11,7 @@ if (n == 0)
 _putchar('0');
 else if (n < 0)
 {
-_putchar('_');
+_putchar('-');
 print_integer(n * -1);
 }
 else
