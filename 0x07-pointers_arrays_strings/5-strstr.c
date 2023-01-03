@@ -22,6 +22,7 @@ while (*haystack != '\0' && *pneedle != '\0' && *haystack == *pneedle)
 {
 haystack++;
 pneedle++;
+}
 if (!*pneedle)
 return (bhaystack);
 haystack = bhaystack + 1;
