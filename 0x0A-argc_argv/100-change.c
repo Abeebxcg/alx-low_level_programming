@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - prints the minimum number of coins to make change for an amount.
  * of money.
@@ -23,7 +22,7 @@ cents = atoi(argv[1]);
 while (cents > 0)
 {
 if (cents >= 25)
-cents -= 25
+cents -= 25;
 else if (cents >= 10)
 cents -= 10;
 else if (cents >= 5)
